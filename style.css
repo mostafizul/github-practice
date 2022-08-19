@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div{
+    height: 40%;
+    width: 50%;
+    text-align: justify;
+    background-color: aqua;
+    padding: 30px;
+    overflow: scroll;
+}
+@media screen and (max-width: 850px) {
+    div {
+        height: 100%;
+    }
+  }
